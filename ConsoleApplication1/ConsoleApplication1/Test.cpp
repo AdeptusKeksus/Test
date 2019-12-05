@@ -14,6 +14,7 @@ int main()
 
 	CommandMapping comannd =  CommandMapping(query);
 	comannd.objectClass->Execute();
-
+	
+	cin.get();
 	return 0;
 }
